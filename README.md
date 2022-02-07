@@ -51,7 +51,7 @@ public class SimpleGeometricObject {
         return "created on " + dateCreated + "\ncolor: " + color +
                 " and filled: " + filled;
     }
-    public class CircleFromSimpleGeometricObject extends SimpleGeometricObject{
+    public class CircleFromSimpleGeometricObject extends SimpleGeometricObject{ // Inner class 'CircleFromSimpleGeometricObject' may be 'static' 
         private double radius;
 
         public CircleFromSimpleGeometricObject() { // Constructor
